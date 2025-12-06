@@ -309,6 +309,62 @@ th {
     border-color: #DE9347; /* keeps your existing border color */
     padding: 0.5em 0.75em;
 }
+
+/* New intro card style used on Blog and Reviews pages */
+.page-intro {
+    background-color: #FFF7EC;
+    border-left: 4px solid #DE9347;
+    padding: 1em 1.25em;
+    border-radius: 8px;
+    margin: 1em 0 2em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.page-intro h3,
+.page-intro p {
+    margin: 0.25em 0;
+}
+
+/* Contact form styling */
+.contact-form-wrapper {
+    margin-top: 2em;
+}
+
+.contact-form {
+    background-color: #FFF7EC;
+    padding: 1.5em 2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    max-width: 500px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 0.75em;
+    margin-bottom: 0.25em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #DE9347;
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form .btn {
+    margin-top: 1em;
+}
+
 .section img {
 		height: auto;
 		width: auto;
@@ -330,7 +386,6 @@ th {
 		padding-left: .25em;
 		padding-right: .25em;
 		padding-bottom: .25em;
-  
 }
 
 .indexsection img {
